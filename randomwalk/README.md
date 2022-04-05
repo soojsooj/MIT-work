@@ -20,4 +20,4 @@ Here we add tracking of the particles. How do we do this? It seems "wasteful" to
 
 ## string.html
 
-#link https://soojsooj.github.io/MIT-work/randomwalk/randomWalk2.html
+# link https://soojsooj.github.io/MIT-work/randomwalk/randomWalk2.html
