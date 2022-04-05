@@ -19,3 +19,5 @@ Can you add gravity so the virus particles drop to the ground?
 Here we add tracking of the particles. How do we do this? It seems "wasteful" to create lots of copies of the particles. However, in the browser its the only way.
 
 ## string.html
+
+#link https://soojsooj.github.io/MIT-work/randomwalk/randomWalk2.html
