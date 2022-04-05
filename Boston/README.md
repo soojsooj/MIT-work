@@ -1,2 +1,2 @@
-<a href = "https://soojsooj.github.io/Practice-Drops/Boston/">Link</a>
+<a href = "https://soojsooj.github.io/MIT-work/Boston/">Link</a>
 
