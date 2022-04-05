@@ -1,0 +1,25 @@
+<html>
+  <!-- in this case, tag is null. [window.onload =function()] so it should run this function once everything is loaded. -->
+  <script>
+    window.onload = function () {
+      tag = document.getElementById("tag1");
+      let time = 100;
+      const getTime = () => {
+        time = time - 1;
+        tag.innerHTML = "Goodbye Aliens: ship leaves in " + time + "secs";
+      };
+      setInterval(getTime, 500);
+    };
+  </script>
+  <body>
+    <div>
+      <h1 id="tag1">Hello Earthling</h1>
+    </div>
+    <!-- <script>
+      //get a handle on the h1 element.
+      const tag = document.getElementById("tag1");
+      //change the tag
+      tag.innerHTML = "Goodbye Aliens";
+    </script> -->
+  </body>
+</ht

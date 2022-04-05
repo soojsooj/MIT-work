@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // // let randomNumberArray = [1, 5, 6, 9];
+
+      // // console.log(randomNumberArray[0]); // 1
+
+      // // //print the last one from the array.
+      // // console.log(randomNumberArray[randomNumberArray.length - 1]); // 9
+
+      // // //increment by one
+      // // for (let i = 0; i < randomNumberArray.length; i++) {
+      // //   const incrementByOne = randomNumberArray[i] + 1;
+      // //   console.log(incrementByOne);
+      // // } // 2 6 7 10
+
+      // // //using Function & incrementByOne
+      // // function incrementByOne() {}
+
+      // // //.push .pop .unshift .shift 연습
+      // // let addItemToArray = randomNumberArray.push(13);
+      // // console.log(randomNumberArray); // [1, 5, 6, 9, 13]
+
+      // // let removeItemFromArray = randomNumberArray.pop();
+      // // console.log(randomNumberArray); // [1, 5, 6, 9]
+
+      // // let addItemToFront = randomNumberArray.unshift(0);
+      // // console.log(randomNumberArray); // [0, 1, 5, 6, 9]
+
+      // // let removeItemFromFront = randomNumberArray.shift();
+      // // console.log(randomNumberArray); // [1, 5, 6, 9]
+
+      // // contacts = [
+      // //   { name: "amy", email: "amy@mit.edu", course: "web dev" },
+      // //   { name: "fred", email: "fred@mit.edu", course: "web dev" },
+      // //   { name: "anne", email: "anne@mit.edu", course: "web dev" },
+      // // ];
+
+      // // console.log(contacts); //(3) [{...},{...},{...}]
+      // // //change the course that anne is taking to 'frontend dev'
+      // // contacts[2] = {
+      // //   name: "anne",
+      // //   email: "anne@mit.edu",
+      // //   course: "frontend dev",
+      // // };
+      // // console.log(contacts);
+      // // //add a new contact to contacts by using contacts[3] = ????
+      // // contacts[3] = {
+      // //   name: "Soo-Jin",
+      // //   email: "huh.soojin@gmail.com",
+      // //   course: "web dev",
+      // // };
+
+      // //Array flattenr activity Array.concat()
+      // //The concat() method is used to merge two or more arrays.
+      // //This method does not change the existing arrays, but instead returns a new array.
+
+      // // Define a function arrayFlattener with a 2 dimensional array as parameter:
+      // // example of 2 dimensional array: [1,[2,3],4,5]
+      // //Return a new 1 dimensional array like, [1,2,3,4]
+
+      // // your code here
+      // function arrayFlattener(array) {
+      //   let newArray = [];
+      //   for (let i = 0; i < arrayFlattener.length; i++) {
+      //     newArray = newArray.concat(array[i]);
+      //   }
+      //   return newArray;
+      // }
+      // // uncomment next line one by one, then check the console for results
+      // console.log(arrayFlattener([1, [2, 3], 4, 5]));
+
+      // //using .join()
+      // //tdarray = two dimensional array
+      // //odarray = one dimensional array
+      // function arrayFlattener(tdarray) {
+      //   let odarray = [];
+      //   odarray = tdarray.join();
+      //   return odarray;
+      // }
+      // console.log(arrayFlattener([1, [2, 3], 4, 5]));
+
+      // //using .flat()
+      // function arrayFlattener(array) {
+      //   return array.flat();
+      // }
+      // console.log(arrayFlattener([1, [2, 3], 4, 5]));
+
+      // // don't change this line
+      // if (typeof module !== "undefined") {
+      //   module.exports = {
+      //     arrayFlattener,
+      //   };
+      // }
+
+      // //.concat() practice
+      // let arr1 = [1, 2, 3, 4];
+      // let arr2 = ["a", "b", "c", "d"]; //  YOU NEED ''!!!!
+
+      // let combinedArr = arr1.concat(arr2); // [1, 2, 3, 4, 'a', 'b', 'c', 'd']
+
+      // console.log(combinedArr);
+
+      // //.sort() 연습.
+      // const namesWithSalary = [
+      //   { name: "andy", salary: 50000 },
+      //   { name: "fudge", salary: 300 },
+      //   { name: "joyce", salary: 100000 },
+      //   { name: "jason", salary: 800000 },
+      // ];
+
+      // namesWithSalary.sort(compare); //sort는 function을 받는다.
+      // console.log(namesWithSalary);
+
+      // function compare(a, b) {
+      //   return b.salary - a.salary;
+      // }
+
+      //NextTech callbacks
+      // This is the array that contains numbers for you to work with
+      // var myArray = [1, 2, 5, 6, 12, 23, 15, 31];
+
+      // // This array should only contain even numbers
+      // var evenArray = [];
+
+      // // This code will call your function when the page loads up
+      // // Don't edit this function!
+      // window.onload = () => {
+      //   console.log(filterArray(myArray, isEvenCallBack));
+      // };
+
+      // function filterArray(myArray, isEvenCallBack) {
+      //   // TODO: use filterArray to determine if a number is even or odd.
+      //   //If the number is even, add it to the array 'evenArray'
+      //   for (let i = 0; i < myArray.length; i++) {
+      //     if (isEvenCallBack(myArray[i])) evenArray.push(myArray[i]);
+      //   }
+      //   return evenArray;
+      // }
+
+      // // This function should return 'true' if a number is even and 'false' if a number is odd
+      // function isEvenCallBack(number) {
+      //   // TODO: use the mod operator (%) to determine if number is even or odd
+      //   if (number % 2 === 0) return true;
+      //   else return false;
+      // }
+
+      // // Do not edit code past this point
+      // if (typeof module !== "undefined") {
+      //   module.exports = { filterArray, isEvenCallBack };
+      // }
+    </script>
+  </body>
+</html>

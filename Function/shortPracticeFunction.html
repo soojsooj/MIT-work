@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /*
+Instructions
+- Create a function called calculator that has 3 arguments: value1, operator and value2
+- By using a switch statement, ask for each case to find out what's the operator being passed to the function, then set the result of that operation by using value1 and value2
+*/
+      //Add you code here
+      function calculator(value1, operator, value2) {
+        switch (operator) {
+          case "+":
+            console.log(value1 + value2);
+            break;
+          case "-":
+            console.log(value1 - value2);
+            break;
+          case "*":
+            console.log(value1 * value2);
+            break;
+          case "/":
+            console.log(value1 / value2);
+            break;
+          default:
+            console.log("sorry, no cases are matched.");
+        }
+      }
+      //uncomment next lines one by one, then check the console for results
+      console.log(calculator(1, "+", 1));
+      console.log(calculator(3, "-", 2));
+      console.log(calculator(3, "*", 2));
+      console.log(calculator(30, "/", 2));
+      console.log(calculator(5, "/", 0));
+
+      //don't change this line
+      if (typeof module !== "undefined") {
+        module.exports = {
+          calculator,
+        };
+      }
+
+      //callback function
+      //filter
+
+      let list = [2, 7, 15, 52, 16, 8, 10];
+
+      function callback(list) {
+        const newList = []; //empty data 꼭..
+        for (let i = 0; i < list.length; i++) {
+          if (list[i] < 10) {
+            newList.push(list[i]);
+          }
+        }
+        return newList;
+      }
+
+      function filter(list, callback) {
+        return callback(list);
+      }
+      const filtered = filter(list, callback);
+      console.log(filtered);
+    </script>
+  </body>
+</html>
