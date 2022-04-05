@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dynamic</title>
+    <style>
+      .on {
+        background-color: orange;
+      }
+      div {
+        padding: 50px;
+        text-align: center;
+        border-style: solid;
+        font-size: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <button onclick="off()">OFF</button>
+    <button onclick="on()">ON</button>
+    <div id="target">Target</div>
+    <script>
+      function on() {
+        const element = document.getElementById("target");
+        element.classList.add("on"); //add the CSS classnames of an element.
+      }
+      function off() {
+        const element = document.getElementById("target");
+        element.classList.remove("on"); //after classList should be CLASSNAME!
+      }
+    </script> -->
+
+    <button onclick="toggle()">TOGGLE</button>
+    <button onclick="start()">START</button>
+    <button onclick="stop()">STOP</button>
+    <div id="target">TARGET</div>
+
+    <script>
+      function toggle() {
+        const element = document.getElementById("target"); //getting a handle of 'target'
+        element.classList.toggle("on");
+      }
+
+      //global variable
+      let timer = null;
+
+      function start() {
+        timer = setTimeout(() => {
+          toggle();
+          console.log("hello from timer!"); //show in console.
+          start();
+        }, 1000);
+      }
+
+      function stop() {
+        clearTimeout(timer);
+      }
+    </script>
+  </body>
+</html>
