@@ -1,0 +1,41 @@
+<!-- CodingGame https://www.codingame.com/playgrounds/5422/js-interview-prep-recursion -->
+<script>
+  //1.Sum all numbers
+  function sumRange(num) {
+    if (num == 1) return 1;
+    return num + sumRange(num - 1);
+  }
+
+  const output = sumRange(5);
+  console.log(output);
+
+  //3. Calculate factorial
+  function factorial(num) {
+    if (num == 1) return 1;
+    return num * factorial(num - 1);
+  }
+
+  const result = factorial(5);
+  console.log(result);
+
+  //5.Product of an array
+  const six = productOfArray([1, 2, 3]);
+  const sixty = productOfArray([1, 2, 3, 10]);
+  console.log(six, sixty);
+
+  function productOfArray(array) {
+    if (array.length === 0) return 1;
+    return array.shift() * productOfArray(array);
+  }
+
+  //9:The function should return an array containing repetitions of the number argument. For instance, replicate(3, 5) should return [5,5,5]. If the times argument is negative, return an empty array.
+
+  //The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.
+
+  function replicate(times, number) {
+    if (times <= 0) return [];
+
+    return [number].concat(replicate(times - 1, number));
+  }
+  console.log(replicate(3, 7)); // [7, 7, 7]
+</script>
