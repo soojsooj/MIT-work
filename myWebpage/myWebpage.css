@@ -5,30 +5,34 @@ body {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-nav {
+  nav {
     background-color: white;
+    
 }
 
 .navbar-brand {
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 900;
-    color: black;
+    margin-left: 20px;
 }
 
-/* .navbar-nav {
+.navbar-nav {
     position: absolute;
-    right: 100px; */
+    /* margin-left: 27px; */
+    
+}
 
-nav ul li a {
+/* nav ul li a {
     color: blanchedalmond;
     font-size:  22px;
     margin: auto 10px;
-}
+} */
  
 nav ul li a:hover {
-    color:aquamarine;
-}
+    text-decoration: underline;
+    color: white;
+}  
 
 img {
     width: 300px;
@@ -60,7 +64,11 @@ section p {
 
 #soojin .img-col {
     justify-content: flex-end;
-    margin-top: 100px;
+    margin-top: 20px;
+}
+
+#soojin h1{
+    font-size: 80px;
 }
 
 /* #soojin img { 
@@ -68,22 +76,22 @@ section p {
     width: 130%;
 } */
 
-#soojin .card {
+#projects .card {
     background-color: rgb(209, 209, 162);
     box-shadow: 11px 7px 16px rgb(154, 154, 66);
-
-    /* border-color: black; */
+    margin-bottom: 20px;
     text-align: center;
 }
 
-#soojin .icon {
+#projects .icon {
     width: 50px;
     height: 50px;
     margin-bottom: 20px;
 }
 
-#projects .projects {
-    margin-bottom: 50px; 
+.btn {
+    background-color: rgb(23, 22, 22);
+    font: red;
 }
 
 #contact {
