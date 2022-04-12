@@ -1,5 +1,6 @@
 # pacmen
-#link <a href="https://soojsooj.github.io/MIT-work/pacmen-factory/starter.html">to PacMen Factory</a>
+# <a href="https://soojsooj.github.io/MIT-work/pacmen-factory/starter.html">Link to PacMen Factory</a>
+
 Factory for making pacmen
 You are given a starter.html code.
 When button "make one" is pressed you need to complete the code 
