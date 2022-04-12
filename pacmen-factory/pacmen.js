@@ -25,7 +25,7 @@ function makePac() {
   let newimg = document.createElement('img');
   newimg.style.position = 'absolute';
   newimg.src = './img/PacMan1.png';
-  newimg.width = 100;
+  newimg.width = 50;
 
   // TODO: set position here
   newimg.style.left = position.x;
