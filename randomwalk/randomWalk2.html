@@ -1,6 +1,7 @@
 <link rel="stylesheet" type="text/css" href="mystyle.css" />
 <script src="ball.js"></script>
 <body>
+  <h1>Click anywhere in the box!</h1>
   <script>
     // This is a random walk.
     // use "factory" to make any number of balls
@@ -36,7 +37,12 @@
     }
     // Can you update this so we can paint with more colors?
     function randomColor() {
-      const colors = ["red", "green", "blue", "yellow"];
+      const colors = [
+        "rgb(56, 96, 131)",
+        "rgb(6, 76, 76)",
+        "#6d5248",
+        "rgb(164, 187, 13)",
+      ];
       return colors[Math.floor(Math.random() * 5)];
     }
     function factory(total) {
@@ -58,12 +64,13 @@
   </script>
   <div class="svg-container">
     <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
+      <!-- Rectanglular -->
       <rect
         x="0"
         y="0"
         width="840"
         height="430"
-        stroke="black"
+        stroke="rgb(151, 65, 65)"
         fill="transparent"
         stroke-width="5"
       />
