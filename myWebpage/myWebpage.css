@@ -93,13 +93,13 @@ section p {
     font: red;
 }
 
-#contact {
+#bottom {
     text-align: center;
-    background-color: black;
+    background-color: var(--bs-body-color);
     color: white;
 }
 
-#contact h1 {
+#bottom h1 {
     text-align: center;
     color: white;
 }
