@@ -106,18 +106,23 @@ section p {
 
 .bi-github {
     color: white;
-    padding-right: 15px;
+    padding-right: 20px;
     font-size: 20px;
 }
 .bi-youtube {
     color: #f00;
-    padding-right: 15px;
+    padding-right: 20px;
     font-size: 20px;
 }
 .bi-facebook {
     color: #1877F2;
-    padding-right: 15px;
+    padding-right: 20px;
     font-size: 20px;
+}
+.bi-linkedin {
+    color: #378fe9;
+    padding-right: 20px;
+    font-size: 20px; 
 }
 .bi-instagram {
     color: rgb(166, 45, 65);
