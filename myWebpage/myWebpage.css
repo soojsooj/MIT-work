@@ -60,7 +60,9 @@ section p {
 }
 
 #soojin h1{
-    font-size: 80px;
+    font-size: 90px;
+    font-family: 'Frank Ruhl Libre', serif;
+
 }
 
 #projects .card {
@@ -76,8 +78,8 @@ section p {
     margin-bottom: 20px;
 }
 
-.btn {
-    /* background-color: rgb(23, 22, 22); */
+#contact {
+   text-align: center;
 }
 
 #bottom {
@@ -90,7 +92,7 @@ section p {
     text-align: center;
     color: white;
 }
-
+/* icons */
 .bi-github {
     color: white;
     padding-right: 20px;
