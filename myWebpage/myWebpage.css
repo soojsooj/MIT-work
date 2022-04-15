@@ -5,11 +5,6 @@ body {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-  nav {
-    /* background-color: white; */
-    
-}
-
 .navbar-brand {
     font-size: 24px;
     text-transform: uppercase;
@@ -18,15 +13,10 @@ body {
 }
 
 .navbar-nav {
-    position: relative;
-    /* margin-left: 27px;  */
+    /* position: sticky; */
+    position: fixed;
 }
 
-/* nav ul li a {
-    color: blanchedalmond;
-    font-size:  22px;
-    margin: auto 10px;
-} */
  
 nav ul li a:hover {
     text-decoration: underline;
@@ -42,11 +32,19 @@ section {
     padding-bottom: 50px;
 }
 
-section h1 {
+#hi {
     text-transform: uppercase;
     font-weight: 900;
     color: black;
     text-align: left;
+    margin-bottom: 20px;
+}
+
+section h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -69,11 +67,6 @@ section p {
 #soojin h1{
     font-size: 80px;
 }
-
-/* #soojin img { 
-    max-width:  130% !important;
-    width: 130%;
-} */
 
 #projects .card {
     background-color: rgb(209, 209, 162);
@@ -109,23 +102,38 @@ section p {
     padding-right: 20px;
     font-size: 20px;
 }
+.bi-github:hover {
+    zoom: 120%;
+}
 .bi-youtube {
     color: #f00;
     padding-right: 20px;
     font-size: 20px;
+}
+.bi-youtube:hover {
+    zoom: 120%;
 }
 .bi-facebook {
     color: #1877F2;
     padding-right: 20px;
     font-size: 20px;
 }
+.bi-facebook:hover {
+    zoom: 120%;
+}
 .bi-linkedin {
     color: #378fe9;
     padding-right: 20px;
     font-size: 20px; 
 }
+.bi-linkedin:hover {
+    zoom: 120%;
+}
 .bi-instagram {
     color: rgb(166, 45, 65);
     padding-right: 20px;
     font-size: 20px;
+}
+.bi-instagram:hover {
+    zoom: 120%;
 }
