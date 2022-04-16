@@ -67,9 +67,12 @@ section p {
 
 #projects .card {
     background-color: rgb(209, 209, 162);
-    box-shadow: 11px 7px 16px rgb(154, 154, 66);
     margin-bottom: 20px;
     text-align: center;
+}
+
+#projects .card:hover {
+    box-shadow: 11px 7px 16px rgb(154, 154, 66);
 }
 
 #projects .icon {
