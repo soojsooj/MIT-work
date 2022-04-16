@@ -49,10 +49,9 @@ section p {
     font-weight: 300;
 }
 /* grid */
-.container {
+/* .container {
     display: grid;
-
-}
+} */
 
 #soojin .col {
     justify-content: center;
