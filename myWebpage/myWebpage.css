@@ -48,6 +48,11 @@ section p {
     font-size: 16px;
     font-weight: 300;
 }
+/* grid */
+.container {
+    display: grid;
+
+}
 
 #soojin .col {
     justify-content: center;
@@ -65,6 +70,27 @@ section p {
     font-family: 'Biryani', sans-serif;
 
 }
+
+/* YouTube responsive */
+.maxWidth {
+    max-width: 400px;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; 
+    /* equals 16:9 -general size of YouTube */
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 #about {
     margin-top: 100px;
