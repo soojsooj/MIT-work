@@ -1,5 +1,5 @@
 body {
-    display: block;
+    display: grid;
     overflow-x: hidden;
     background-color: rgb(209, 209, 162);
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -147,9 +147,6 @@ nav ul li a:hover {
     margin-top: 40px;
     margin-bottom: 20px;
     text-align: center;
-}
-
-#projects .card:hover {
     box-shadow: 11px 7px 16px rgb(154, 154, 66);
 }
 
