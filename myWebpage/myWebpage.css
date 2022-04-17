@@ -4,7 +4,24 @@ body {
     background-color: rgb(209, 209, 162);
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+/* All sections */
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px; 
+    /* footer bottom */
+}
 
+/* ALL h1s */
+section h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Navbar */
 .navbar-brand {
     font-size: 24px;
     text-transform: uppercase;
@@ -17,120 +34,7 @@ nav ul li a:hover {
     color: black;
 }  
 
-img {
-    width: 300px;
-} 
-
-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-top: 50px;
-}
-
-#hi {
-    text-transform: uppercase;
-    font-weight: 900;
-    color: black;
-    text-align: left;
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-
-section h1 {
-    text-transform: uppercase;
-    font-weight: 900;
-    color: black;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-section p {
-    font-size: 16px;
-    font-weight: 300;
-}
-/* grid */
-/* .container {
-    display: grid;
-} */
-
-#soojin .col {
-    justify-content: center;
-    flex-direction: column;
-    display: flex;
-}
-
-#soojin .img-col {
-    justify-content: flex-end;
-    margin-top: 20px;
-}
-
-#soojin h1{
-    font-size: 90px;
-    font-family: 'Biryani', sans-serif;
-
-}
-
-/* YouTube responsive */
-.maxWidth {
-    max-width: 400px;
-}
-
-.videoWrapper {
-    position: relative;
-    padding-bottom: 56.25%; 
-    /* equals 16:9 -general size of YouTube */
-    height: 0;
-}
-
-.videoWrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-
-#about {
-    margin-top: 100px;
-}
-
-#projects {
-    margin-top: 100px;
-}
-
-#projects .card {
-    background-color: rgb(209, 209, 162);
-    margin-top: 40px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-#projects .card:hover {
-    box-shadow: 11px 7px 16px rgb(154, 154, 66);
-}
-
-#projects .icon {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 20px;
-}
-
-#contact {
-   text-align: center;
-}
-
-#bottom {
-    text-align: center;
-    background-color: var(--bs-body-color);
-    color: white;
-}
-
-#bottom h1 {
-    text-align: center;
-    color: white;
-}
-/* icons */
+/* icons in Navbar*/
 .bi-github {
     color: white;
     padding-right: 20px;
@@ -172,6 +76,102 @@ section p {
     zoom: 120%;
 }
 
+
+/* Intro */
+#hi {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* #intro .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+} */
+
+/* #intro .img-col {
+    justify-content: flex-end;
+    margin-top: 20px;
+} */
+
+#blueImg {
+    width: 300px;
+} 
+
+#intro h1{
+    font-size: 90px;
+    font-family: 'Biryani', sans-serif;
+
+}
+
+/* YouTube */
+#youtube {
+    
+}
+.maxWidth {
+    max-width: 400px;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; 
+    /* equals 16:9 -general size of YouTube */
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* about */
+#about p {
+    color: red;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#meWithFudge {
+    width: 300px;
+}
+
+/* projects */
+#projects .card {
+    background-color: rgb(209, 209, 162);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#projects .card:hover {
+    box-shadow: 11px 7px 16px rgb(154, 154, 66);
+}
+
+#projects .projectImg {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+/* contact */
+#contact {
+   text-align: center;
+}
+
+/* footer */
+#footer {
+    text-align: center;
+    background-color: var(--bs-body-color);
+    color: white;
+}
+
+/* ToTheTop btn */
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
