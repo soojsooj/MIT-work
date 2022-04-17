@@ -99,11 +99,11 @@ nav ul li a:hover {
 
 }
 
-/* YouTube */
 #blueImg { 
     width: 400px; 
 } 
- 
+
+/* YouTube */
 .maxWidth {
     max-width: 650px;
 }
@@ -135,7 +135,7 @@ nav ul li a:hover {
 }
 
 #meWithFudge {
-    width: 400px;
+    width: 450px;
 }
 
 /* projects */
