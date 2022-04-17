@@ -4,6 +4,7 @@ body {
     background-color: rgb(209, 209, 162);
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
 /* All sections */
 section {
     padding-top: 50px;
@@ -11,6 +12,7 @@ section {
     margin-top: 100px; 
     /* footer bottom */
 }
+
 
 /* ALL h1s */
 section h1 {
@@ -78,6 +80,10 @@ nav ul li a:hover {
 
 
 /* Intro */
+#intro {
+    margin-top: 20px;
+}
+
 #hi {
     text-transform: uppercase;
     font-weight: 900;
@@ -95,7 +101,7 @@ nav ul li a:hover {
 
 /* YouTube */
 #blueImg { 
-    width: 300px; 
+    width: 400px; 
 } 
  
 .maxWidth {
@@ -129,7 +135,7 @@ nav ul li a:hover {
 }
 
 #meWithFudge {
-    width: 300px;
+    width: 400px;
 }
 
 /* projects */
