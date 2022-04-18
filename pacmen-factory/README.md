@@ -2,7 +2,7 @@
 Factory for making PacMen.
 
 ## Description: 
-Whenever button Add Pacman" is pressed, pacmen will be created. 
+Whenever button "Add Pacman" is pressed, pacmen will be created. 
 When button "Start Game" is pressed and they will bounce off any wall it hits with different velocities. You can also end the game by pressing "End game".
 
 ## How to Run 
