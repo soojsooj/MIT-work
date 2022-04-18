@@ -10,7 +10,7 @@ This map shows the bus trace between MIT and Harvard when clicked and is updated
 ## Future improvements
 * Assign tracking to different locations.
 * Use for different purposes.
-* Track something else such as trains, flights 
+* Track something else such as trains and flights 
 * Use images for stops.
 * Use more CSS (light / dark versions)
 
