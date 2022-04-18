@@ -30,11 +30,31 @@ section h1 {
     font-weight: 900;
     margin-left: 20px;
 }
- 
-nav ul li a:hover {
-    text-decoration: underline;
-    color: black;
-}  
+/* underline hover  */
+nav ul li a {
+  position: relative;
+  text-decoration: none;
+}
+
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: rgb(209, 209, 162);
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+nav ul li a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+
 
 /* icons in Navbar*/
 .bi-github {
@@ -137,7 +157,7 @@ nav ul li a:hover {
 #meWithFudge {
     width: 450px;
 }
-
+g
 /* projects */
 #projects .card {
     background-color: rgb(209, 209, 162);
