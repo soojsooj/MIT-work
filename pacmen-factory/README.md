@@ -1,4 +1,5 @@
-# Title: PacMen Factory: Factory for making PacMen.
+# Title: PacMen Factory: 
+Factory for making PacMen.
 
 ## Description: 
 Whenever button Add Pacman" is pressed, pacmen will be created. 
