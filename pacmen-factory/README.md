@@ -1,5 +1,5 @@
-# pacmen
-# <a href="https://soojsooj.github.io/MIT-work/pacmen-factory/starter.html">Link to PacMen Factory</a>
+# Title: Pacmen Factory
+## <a href="https://soojsooj.github.io/MIT-work/pacmen-factory/starter.html">Link to PacMen Factory</a>
 
 Factory for making pacmen
 You are given a starter.html code.
@@ -8,4 +8,4 @@ to position the new pacman image and add it to the "game" div. It is then added 
 You also need to make each pacman bounce off any wall it hits. 
 Start by getting at least one pacman positioned and viewable. 
 
-<img src="PacMan1.png">
+ How to Run Roadmap of future improvements
