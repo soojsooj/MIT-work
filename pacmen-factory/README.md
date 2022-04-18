@@ -8,7 +8,7 @@ When button "Start Game" is pressed and they will bounce off any wall it hits wi
 ## How to Run 
 <a href="https://soojsooj.github.io/MIT-work/pacmen-factory/starter.html">Link</a> to PacMen Factory
 
-## future improvements
+## Future improvements
 * More use of CSS
 * Use of random colors whenever PacMen are created.
 * Use different images of PacMan
