@@ -1,6 +1,6 @@
-## MIT xPRO Professional Certificate in Coding: Full Stack Development with MERN
+## MIT xPRO Professional Certificate in Coding: Full Stack Development with MERN:
 
-## :There are many sub-folders in this repository. These are assignments that I practiced and made during the MITxPRO Professional Certificate in Coding: Full Stack Development with MERN course. This course is divided into three parts(See the below), and this particular repository is made up of things created during the first part of them.
+There are many sub-folders in this repository. These are assignments that I practiced and made during the MITxPRO Professional Certificate in Coding: Full Stack Development with MERN course. This course is divided into three parts(See the below), and this particular repository is made up of things created during the first part of them.
 
 * In part one of the course, you will develop foundational skills in web development with JavaScript, HTML, and CSS.  You’ll also create your own personal portfolio in Github, which you will add to as you progress through the course.  
 
