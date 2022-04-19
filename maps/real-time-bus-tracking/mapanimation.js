@@ -1,51 +1,77 @@
-// This array contains the coordinates for all bus stops between MIT and Harvard
-const busStops = [
-    [-71.093729, 42.359244],
-    [-71.094915, 42.360175],
-    [-71.0958, 42.360698],
-    [-71.099558, 42.362953],
-    [-71.103476, 42.365248],
-    [-71.106067, 42.366806],
-    [-71.108717, 42.368355],
-    [-71.110799, 42.369192],
-    [-71.113095, 42.370218],
-    [-71.115476, 42.372085],
-    [-71.117585, 42.373016],
-    [-71.118625, 42.374863],
-  ];
+//my access token
+mapboxgl.accessToken = "pk.eyJ1IjoibHVsaW5sdWxpbiIsImEiOiJjbDFqaXc5bWkyMXNoM2tuc2xhandrZTA5In0.jVjCWCQvUi1hFmERaLPm9A";
+ 
+//map
+let map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/mapbox/streets-v11',
+  center: [-71.104081, 42.365554],
+  zoom: 14,
+});
+
+//request bus data from MBTA
+async function getBusLocations(){
+  const url = 'https://api-v3.mbta.com/vehicles';
+  const response = await fetch(url);
+  const json = await response.json();
+  data = json.data;
+  return data;
+}
+
+
+let busRoute1 = [];
+let marker = [];
+
+function getBusRoute(data) {
+  for (let i = 0; i < data.length; i++) {
+    if(data[i].relationships.route.data.id === "1"){
+      busRoute1.push(data[i]);
+    }
+  }
+}
+
+async function run(){
+
+  //get bus data
+  const locations = await getBusLocations();
+  console.log(new Date());
+  console.log(locations);
+  busRoute1 = [];
+
+  for (let i = 0; i < marker.length; i++) {
+    marker[i].remove();
+  }
+
+  getBusRoute(locations)
   
-  // TODO: add your own access token
-  mapboxgl.accessToken = "pk.eyJ1IjoibHVsaW5sdWxpbiIsImEiOiJjbDFqaXc5bWkyMXNoM2tuc2xhandrZTA5In0.jVjCWCQvUi1hFmERaLPm9A";
-  
-  // This is the map instance
-  let map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v11',
-    center: [-71.104081, 42.365554],
-    zoom: 14,
-  });
-  
-  // TODO: add a marker to the map at the first coordinates in the array busStops. The marker variable should be named "marker"
-  const marker = new mapboxgl.Marker()
-    .setLngLat([-71.093729, 42.359244])
+  let lng = [];
+  let lat = [];
+
+  for (let i = 0; i < busRoute1.length; i++) {
+    let lnglat = [busRoute1[i].attributes.longitude, busRoute1[i].attributes.latitude];
+
+    marker[i] = new mapboxgl.Marker()
+    .setLngLat(lnglat)
     .addTo(map);
 
-  // counter here represents the index of the current bus stop
-  let counter = 0;
-  function move() {
-    // TODO: move the marker on the map every 1000ms. Use the function marker.setLngLat() to update the marker coordinates
-    // Use counter to access bus stops in the array busStops
-    // Make sure you call move() after you increment the counter.
-    setTimeout(()=>{
-        if(counter >= busStops.length) return;
-        marker.setLngLat(busStops[counter]);
-        counter++;
-        move();
-    }, 1000);
+    lng.push(busRoute1[i].attributes.longitude);
+    lat.push(busRoute1[i].attributes.latitude);
   }
+
+
+
   
-  // Do not edit code past this point
-  if (typeof module !== 'undefined') {
-    module.exports = { move };
-  }
-  
+  setTimeout(run, 15000);
+}
+
+run();
+
+
+
+
+
+
+// Do not edit code past this point
+if (typeof module !== 'undefined') {
+  module.exports = { move };
+}
