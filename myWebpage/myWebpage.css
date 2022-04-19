@@ -136,6 +136,9 @@ nav ul li a:hover::before {
 
 
 /* Intro */
+#intro {
+    justify-content: center;
+}
 #intro h1{
     text-transform: uppercase;
     font-weight: 900;
@@ -203,7 +206,8 @@ nav ul li a:hover::before {
 }
 
 #meWithFudge {
-    width: 450px;
+    width: 550px;
+    padding-right: 100px;
 }
 
 /* projects */
