@@ -146,8 +146,7 @@ nav ul li a:hover::before {
     text-align: left;
     font-size: 90px;
     font-family: 'Biryani', sans-serif;
-    /* padding-left: 160px; */
-    padding-left: 70px;
+    padding-left: 160px;
 }
 
 #blueImg { 
