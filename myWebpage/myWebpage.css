@@ -11,26 +11,22 @@
     grid-auto-rows: minmax(100px, auto);
     grid-gap: 10px;
     grid-template-areas:
-      "intro intro intro"
       "youtube youtube youtube"
-      "about about about"
       "projects projects projects";
     margin-left: 4em;
     margin-right: 4em;
   }
-  
-#intro {
-    grid-area: intro;
-  }
+
   
 #youtube {
     grid-area: youtube;
     background-color: rgb(201, 201, 155);
   }
   
- #about{
+ /* #about{
     grid-area: about;
- }
+    background-color: pink;
+ } */
 
   
  #projects {
