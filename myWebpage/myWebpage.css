@@ -14,8 +14,7 @@
       "intro intro intro"
       "youtube youtube youtube"
       "about about about"
-      "projects projects projects"
-      "contact contact contact";
+      "projects projects projects";
     margin-left: 4em;
     margin-right: 4em;
   }
@@ -39,15 +38,6 @@
     background-color: rgb(201, 201, 155);
   }
   
-  #contact {
-    grid-area: contact;
-  }
-  
-  /* #one {
-    background: rgb(2, 48, 48);
-    border: 2px ridge black;
-    color: wheat;
-  } */
 /* End section grid   */
 
 
