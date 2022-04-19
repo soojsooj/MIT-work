@@ -59,6 +59,14 @@ section h1 {
     padding-bottom: 50px;
 }
 
+#youtube-me {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
 /* Navbar */
 .navbar-brand {
     font-size: 24px;
@@ -138,6 +146,7 @@ nav ul li a:hover::before {
 /* Intro */
 #intro {
     justify-content: center;
+    padding-bottom: 120px;
 }
 #intro h1{
     text-transform: uppercase;
