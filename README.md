@@ -1,3 +1,7 @@
+## <a href="https://soojsooj.github.io/MIT-work/myWebpage/myWebpage.html">Link</a> to My Portfolio
+## <a href="https://github.com/soojsooj/MIT-work/tree/main/myWebpage">Link</a> to My Portfolio GitHub Repository
+
+
 ## MIT xPRO Professional Certificate in Coding: Full Stack Development with MERN:
 
 There are many sub-folders in this repository. These are assignments that I practiced and made during the MITxPRO Professional Certificate in Coding: Full Stack Development with MERN course. This course is divided into three parts(See the below), and this particular repository is made up of things created during the first part of them.
@@ -12,5 +16,5 @@ There are many sub-folders in this repository. These are assignments that I prac
 ## How to run:
 To run the program, just open a subfolder and click the link in the README.md file.
 
- 
+
 
