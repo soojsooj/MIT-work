@@ -13,8 +13,8 @@
     grid-template-areas:
       "youtube youtube youtube"
       "projects projects projects";
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-left: 2vw;
+    margin-right: 2vw;
   }
 
   
@@ -67,6 +67,9 @@ section h1 {
     padding-bottom: 50px;
 }
 
+#youtube-video {
+    padding-left: 4vw;
+}
 /* Navbar */
 .navbar-brand {
     font-size: 24px;
@@ -144,10 +147,15 @@ nav ul li a:hover::before {
 
 
 /* Intro */
-#intro {
+/* #intro {
     justify-content: center;
     padding-bottom: 120px;
+} */
+#intro {
+    padding-top: 8vh;
+    align-items: center;
 }
+
 #intro h1{
     text-transform: uppercase;
     font-weight: 900;
@@ -155,11 +163,13 @@ nav ul li a:hover::before {
     text-align: left;
     font-size: 90px;
     font-family: 'Biryani', sans-serif;
-    padding-left: 160px;
+    padding-left: 7vw;
 }
 
 #blueImg { 
-    width: 400px; 
+    width: 40vw; 
+    height: auto;
+    padding-left: 8vw;
 } 
 
 /* YouTube */
@@ -176,6 +186,7 @@ nav ul li a:hover::before {
   
 #youtube-video {
     grid-area: youtube-video;
+    padding-left: 5vw;
   }
   
 #youtube-p {
@@ -205,7 +216,8 @@ nav ul li a:hover::before {
 
 /* about */
 #about {
-    padding-left: 80px;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 #about p {
@@ -216,7 +228,8 @@ nav ul li a:hover::before {
 
 #meWithFudge {
     width: 550px;
-    padding-right: 100px;
+    padding-right: 2vw;
+    padding-left: 2vw;
 }
 
 /* projects */
