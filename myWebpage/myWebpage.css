@@ -245,7 +245,6 @@ nav ul li a:hover::before {
 /* projects */
 #projects-wrapper {
     margin-top: 0;
-    margin-bottom: 0;
 }
 
 #projects .card {
