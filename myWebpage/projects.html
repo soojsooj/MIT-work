@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soojin Huh</title>
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- my css -->
+    <link rel="stylesheet" href="myWebpage.css" />
+    <!-- bootstrap-icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Biryani:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="myWebpage.html">SJ</a>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="myWebpage.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="myWebpage.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="myWebpage.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- icons in navbar -->
+        <span class="icons" title="github">
+          <a href="https://github.com/soojsooj" target="_blank"
+            ><i class="bi bi-github"></i></a
+        ></span>
+
+        <span class="icons" title="youtube"
+          ><a
+            href="https://www.youtube.com/user/clarinetisfying"
+            target="_blank"
+            ><i class="bi bi-youtube"></i></a
+        ></span>
+
+        <span class="icons" title="facebook"
+          ><a href="https://www.facebook.com/soojin.huh.16" target="_blank"
+            ><i class="bi bi-facebook"></i></a
+        ></span>
+
+        <span class="icons" title="instagram"
+          ><a href="https://www.instagram.com/soo.j.soo.j/" target="_blank"
+            ><i class="bi bi-instagram"></i></a
+        ></span>
+
+        <span class="icons" title="linkedin"
+          ><a href="https://www.linkedin.com/in/soojinhuh/" target="_blank"
+            ><i class="bi bi-linkedin"></i></a
+        ></span>
+        <!-- End icons in navbar-->
+        <!-- Hamburger in navbar-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- End Hamburger in navbar-->
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- start wrapper -->
+    <div class="wrapper" id="projects-wrapper">
+      <!-- projects -->
+      <section id="projects">
+        <h1>My Projects</h1>
+        <div class="row cards">
+          <div class="col-md-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./projects imgs/pacmen-factory.png"
+                class="card-img-top"
+                alt="Pacmen Factory Image"
+                class="projectImg"
+              />
+              <div class="card-body">
+                <h5 class="PacMen">PacMen Factory</h5>
+                <p class="card-text">
+                  creates PacMen and each of them will move at their own pace
+                </p>
+                <a
+                  href="https://github.com/soojsooj/MIT-work/tree/main/pacmen-factory"
+                  class="btn btn-outline-dark"
+                  target="blank"
+                  >Github Repo</a
+                >
+                <a
+                  href="https://soojsooj.github.io/MIT-work/pacmen-factory/starter.html"
+                  class="btn btn-outline-dark"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./projects imgs/eye-movement.png"
+                class="card-img-top"
+                alt="Eye Movement Image"
+                class="projectImg"
+              />
+              <div class="card-body">
+                <h5 class="eye">Eye Movement</h5>
+                <p class="card-text">Eyes follow your mouse movement</p>
+                <a
+                  href="https://github.com/soojsooj/MIT-work/tree/main/eye-movement-exercise"
+                  class="btn btn-outline-dark"
+                  target="blank"
+                  >Github Repo</a
+                >
+                <a
+                  href="https://soojsooj.github.io/MIT-work/eye-movement-exercise/index.html"
+                  class="btn btn-outline-dark"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./projects imgs/random-walk.png"
+                class="card-img-top"
+                alt="Random Walk"
+                class="projectImg"
+              />
+              <div class="card-body">
+                <h5 class="random-walk">Random Walk</h5>
+                <p class="card-text">creates particles on click</p>
+                <a
+                  href="https://github.com/soojsooj/MIT-work/tree/main/randomwalk"
+                  class="btn btn-outline-dark"
+                  target="blank"
+                  >Github Repo</a
+                >
+                <a
+                  href="https://soojsooj.github.io/MIT-work/randomwalk/randomWalk2.html"
+                  class="btn btn-outline-dark"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem">
+              <img
+                src="projects imgs/real-time-bus-tracker.png"
+                class="card-img-top"
+                alt="Real Time Bus Tracker Image"
+                class="projectImg"
+              />
+              <div class="card-body">
+                <h5 class="bus-tracker">Real Time Bus Tracker</h5>
+                <p class="card-text">
+                  shows bus stops between MIT and Harvard on click
+                </p>
+                <a
+                  href="https://github.com/soojsooj/MIT-work/tree/main/maps/real-time-bus-tracking"
+                  class="btn btn-outline-dark"
+                  target="blank"
+                  >Github Repo</a
+                >
+                <a
+                  href="https://soojsooj.github.io/MIT-work/maps/real-time-bus-tracking/mapanimation.html"
+                  class="btn btn-outline-dark"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem">
+              <img
+                src="projects imgs/chicago-crime.png"
+                class="card-img-top"
+                alt="Chicago Crime Image"
+                class="projectImg"
+              />
+              <div class="card-body">
+                <h5 class="chicago-crime">Chicago Crime</h5>
+                <p class="card-text">A heatmap of crime data from Chicago</p>
+                <a
+                  href="https://github.com/soojsooj/MIT-work/tree/main/maps"
+                  class="btn btn-outline-dark"
+                  target="blank"
+                  >Github Repo</a
+                >
+                <a
+                  href="https://soojsooj.github.io/MIT-work/maps/03_map_clustering.html"
+                  class="btn btn-outline-dark"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem">
+              <img
+                src="projects imgs/shapes.png"
+                class="card-img-top"
+                alt="Shapes Image"
+                class="projectImg"
+              />
+              <div class="card-body">
+                <h5 class="shapes">Shapes</h5>
+                <p class="card-text">layered in different colors</p>
+                <a
+                  href="https://github.com/soojsooj/MIT-work/tree/main/shapes"
+                  class="btn btn-outline-dark"
+                  target="blank"
+                  >Github Repo</a
+                >
+                <a
+                  href="https://soojsooj.github.io/MIT-work/shapes/shapes.html"
+                  class="btn btn-outline-dark"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End projects -->
+    </div>
+    <!-- End wrapper -->
+
+    <!-- ToTheTop-arrow icon -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="bi bi-arrow-bar-up"></i>
+    </button>
+
+    <!-- footer section -->
+    <section class="footer">
+      <div class="row align-items-center">
+        <div class="col">
+          <p>© 2022 Soojin Huh</p>
+        </div>
+      </div>
+    </section>
+    <!-- End footer section -->
+
+    <!-- bootstrap JS  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- my js -->
+    <script src="myWebpage.js"></script>
+  </body>
+</html>

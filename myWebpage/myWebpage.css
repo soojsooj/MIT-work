@@ -45,6 +45,14 @@ body {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+/* dark mode */
+/* @media (prefers-color-scheme: dark) {
+    body {
+        background: rgb(28, 28, 66);
+        color:rgb(197, 197, 188);
+    }
+} */
+
 /* All sections-DO NOT remove! */ 
 section {
     padding-top: 10vh;
@@ -235,6 +243,11 @@ nav ul li a:hover::before {
 }
 
 /* projects */
+#projects-wrapper {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 #projects .card {
     background-color: rgb(209, 209, 162);
     margin-top: 40px;
@@ -286,3 +299,5 @@ nav ul li a:hover::before {
   #myBtn:hover {
      background-color: #555; /*Add a dark-grey background on hover */
   }
+
+ 
